@@ -27,11 +27,6 @@ body {
   min-height: 750px;
 }
 
-.nav-mock {
-  /* Временно для сетки */
-  min-height: 310px;
-}
-
 @media (min-width: 768px) {
   body {
     background: #292929 url("../img/bb-tablet.png") no-repeat 50% 0;
@@ -43,5 +38,17 @@ body {
   body {
     background: #292929 url("../img/bb-desktop.png") no-repeat 50% 0;
     background-size: 1391px auto;
+  }
+}
+
+.nav-mock {
+  /* Временно для сетки */
+  min-height: 310px;
+}
+
+@media (min-width: 768px) {
+  .nav-mock {
+    /* Временно для сетки */
+    min-height: 70px;
   }
 }
