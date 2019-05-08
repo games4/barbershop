@@ -144,3 +144,9 @@ body {
     width: 60px;
   }
 }
+
+@media (min-width: 1200px) {
+  .main-nav__wrapper {
+    width: 960px;
+  }
+}
