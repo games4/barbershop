@@ -101,6 +101,10 @@ body {
 /* Файл blocks/main-nav.less */
 
 .main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
   /* Временно для сетки */
   min-height: 50px;
 }
