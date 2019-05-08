@@ -82,3 +82,18 @@ body {
     height: 648px;
   }
 }
+
+.page-header,
+.page-header__logo {
+  outline: none;
+  background: transparent;
+}
+
+.page-header::before,
+.page-header__logo::before {
+  display: none;
+}
+
+.page-header__logo {
+  background: rgba(255, 255, 255, 0.5);
+}
