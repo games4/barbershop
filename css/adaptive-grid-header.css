@@ -70,3 +70,9 @@ body {
     height: 400px;
   }
 }
+
+@media (min-width: 1200px) {
+  .page-header__logo {
+    height: 648px;
+  }
+}
