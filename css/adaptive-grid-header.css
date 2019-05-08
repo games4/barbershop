@@ -65,5 +65,8 @@ body {
 }
 
 @media (min-width: 768px) {
-  
+  .page-header__logo {
+    order: 2;
+    height: 400px;
+  }
 }
