@@ -97,3 +97,15 @@ body {
 .page-header__logo {
   background: rgba(255, 255, 255, 0.5);
 }
+
+/* Файл blocks/main-nav.less */
+
+.main-nav__list {
+  /* Временно для сетки */
+  min-height: 50px;
+}
+
+.site-list {
+  /* Временно для сетки */
+  min-height: 255px;
+}
