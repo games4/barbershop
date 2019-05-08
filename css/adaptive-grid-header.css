@@ -27,6 +27,11 @@ body {
   min-height: 750px;
 }
 
+.nav-mock {
+  /* Временно для сетки */
+  min-height: 310px;
+}
+
 @media (min-width: 768px) {
   body {
     background: #292929 url("../img/bb-tablet.png") no-repeat 50% 0;
