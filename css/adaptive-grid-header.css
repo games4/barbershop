@@ -65,12 +65,14 @@ body {
 }
 
 @media (min-width: 768px) {
-  .page-header {
-    flex-direction: column-reverse;
-  }
+  /* второй вариант изменения последовательности блоков */
+  /* .page-header { */
+    /* flex-direction: column-reverse; */
+  /* } */
   
   .page-header__logo {
-    /* order: 2; */
+  /* первый вариант изменения последовательности блоков */
+    order: 2;
     height: 400px;
   }
 }
