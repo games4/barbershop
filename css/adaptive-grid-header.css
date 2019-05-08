@@ -118,3 +118,10 @@ body {
   /* Временно для сетки */
   min-height: 255px;
 }
+
+@media (min-width: 768px) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+}
