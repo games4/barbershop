@@ -138,4 +138,9 @@ body {
     /* Временно для сетки */
     min-height: 70px;
   }
+  
+  .user-list {
+    /* flex-basis: 60px; */
+    width: 60px;
+  }
 }
