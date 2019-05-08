@@ -149,4 +149,12 @@ body {
   .main-nav__wrapper {
     width: 960px;
   }
+  
+  .site-list {
+    width: 780px;
+  }
+  
+  .user-list {
+    width: 160px;
+  }
 }
