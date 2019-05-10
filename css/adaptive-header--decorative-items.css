@@ -1,0 +1,55 @@
+/* Файл variables.less */
+/* Файл scaffolding.less */
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Arial", sans-serif;
+  color: #f7f4f1;
+  font-style: normal;
+  background-color: #292929;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Файл mixins.less */
+/* Файл blocks/page-header.less */
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__logo {
+  height: 85px;
+}
+
+@media (min-width: 768px) {
+  .page-header__logo {
+    order: 2;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header__logo {
+    height: 648px;
+  }
+}
+
+/* Стили для nav-mock */
+.nav-mock {
+  min-height: 310px;
+}
+
+@media (min-width: 768px) {
+  .nav-mock {
+    min-height: 72px;
+  }
+}
