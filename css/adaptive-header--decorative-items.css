@@ -43,6 +43,11 @@ img {
   height: 85px;
 }
 
+.page-header__logo img {
+  width: 226px;
+  height: 85px;
+}
+
 @media (min-width: 768px) {
   .page-header__logo {
     order: 2;
