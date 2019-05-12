@@ -192,7 +192,7 @@ img {
   list-style: none;
   
   /* Временно для сетки */
-  min-height: 50px;
+  /* min-height: 50px; */
 }
 
 @media (min-width: 768px) {
@@ -227,16 +227,16 @@ img {
 /* Файл blocks/site-list.less */
 
 .site-list {
-  /* Временно для сетки */
-  min-height: 255px;
+  /* Временно для сетки меню мобильной версии сайта */
+  /* min-height: 255px; */
 }
 
 @media (min-width: 768px) {
   .site-list {
     /* flex-basis: 570px; */
     width: 570px;
-    /* Временно для сетки */
-    min-height: 70px;
+    /* Временно для сетки меню планшетной и десктопной версии сайта*/
+    /* min-height: 70px; */
   }
 }
 
