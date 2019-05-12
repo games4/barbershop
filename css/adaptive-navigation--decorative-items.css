@@ -263,6 +263,16 @@ img {
 
 /* Файл block/user-list.less */
 
+.user-list {
+  position: relative;
+  display: block;
+  padding: 17px 21px;
+  padding-left: 49px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .user-list {
     /* flex-basis: 60px; */
