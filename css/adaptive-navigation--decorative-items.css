@@ -263,7 +263,7 @@ img {
 
 /* Файл block/user-list.less */
 
-.user-list {
+.user-list__login {
   position: relative;
   display: block;
   padding: 17px 21px;
