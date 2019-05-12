@@ -195,11 +195,6 @@ img {
   min-height: 50px;
 }
 
-.site-list {
-  /* Временно для сетки */
-  min-height: 255px;
-}
-
 @media (min-width: 768px) {
   .main-nav {
     width: auto;
@@ -213,13 +208,6 @@ img {
     margin: 0 auto;
   }
   
-  .site-list {
-    /* flex-basis: 570px; */
-    width: 570px;
-    /* Временно для сетки */
-    min-height: 70px;
-  }
-  
   .user-list {
     /* flex-basis: 60px; */
     width: 60px;
@@ -231,12 +219,30 @@ img {
     width: 960px;
   }
   
-  .site-list {
-    width: 780px;
-  }
-  
   .user-list {
     width: 160px;
+  }
+}
+
+/* Файл blocks/site-list.less */
+
+.site-list {
+  /* Временно для сетки */
+  min-height: 255px;
+}
+
+@media (min-width: 768px) {
+  .site-list {
+    /* flex-basis: 570px; */
+    width: 570px;
+    /* Временно для сетки */
+    min-height: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-list {
+    width: 780px;
   }
 }
 
