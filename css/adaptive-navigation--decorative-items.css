@@ -207,20 +207,11 @@ img {
     width: 640px;
     margin: 0 auto;
   }
-  
-  .user-list {
-    /* flex-basis: 60px; */
-    width: 60px;
-  }
 }
 
 @media (min-width: 1200px) {
   .main-nav__wrapper {
     width: 960px;
-  }
-  
-  .user-list {
-    width: 160px;
   }
 }
 
@@ -267,6 +258,21 @@ img {
 @media (min-width: 1200px) {
   .site-list {
     width: 780px;
+  }
+}
+
+/* Файл block/user-list.less */
+
+@media (min-width: 768px) {
+  .user-list {
+    /* flex-basis: 60px; */
+    width: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .user-list {
+    width: 160px;
   }
 }
 
