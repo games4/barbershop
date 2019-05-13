@@ -192,7 +192,12 @@ img {
   list-style: none;
   
   /* Временно для сетки */
-  /* min-height: 50px; */
+  min-height: 50px;
+}
+
+/* Стили для экранов меньше 767px */
+@media (max-widht: 767px) {
+  
 }
 
 @media (min-width: 768px) {
