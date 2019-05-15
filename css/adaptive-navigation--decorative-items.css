@@ -274,6 +274,8 @@ img {
   .main-nav {
     width: auto;
     margin: 0;
+    
+    background-color: #000000;
   }
   
   .main-nav__wrapper {
