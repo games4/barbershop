@@ -278,6 +278,10 @@ img {
     background-color: #000000;
   }
   
+  .main-nav__toggle {
+    display: none;
+  }
+  
   .main-nav__wrapper {
     display: flex;
     justify-content: space-between;
